@@ -1,0 +1,108 @@
+.MainContainer{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("pozadina.jpg");
+    background-blend-mode: lighten;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    mix-blend-mode: lighten;
+    flex-direction: row;
+    width: 100%;
+    
+}
+@media screen and (max-width: 767px) {
+    .MainContainer {   
+      flex-direction: column; 
+    }
+  }
+table, tr, th, td{
+    border: 0.8px solid #008CBA;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #1ba7dfab;
+    color: white;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 79, 250, 0.192);
+    
+}
+tr:hover {
+    background-color: #d0effa;
+}
+
+.Table{
+    font-size: 10px;
+    overflow-x:auto; 
+    border-radius: 4px; 
+    width: 100%;
+}
+.Form{
+    display: flex;
+    flex: 0 0 200px;
+    flex-direction: column;
+    font-size: 14px;
+    width: 100%;
+}
+button{
+    font-size: 8px;
+    background-color: white;
+    border: 1px solid #008CBA;
+    color: black;
+    padding: 7px;
+    margin: 4px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;    
+}
+button:hover {
+    background-color: #008CBA; 
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+select{
+    font-size: 10px;
+}
+label{
+    font-size: 10px;
+}
+.checkBox{
+    display: flex;
+}
+.checkBoxVrste{
+    display: flex;
+}
+
+input[type='checkbox'] {
+    width:7px;
+    height:7px; 
+}
+input{
+    width:170px;
+    height:15px;
+    box-sizing: border-box;
+    border: 1px solid #008CBA;
+    border-radius: 2px;
+}
+select {
+    width:170px;
+    height:15px;
+    border: 1px solid #008CBA;
+    border-radius: 4px;
+}
+.lab{
+    font-weight:bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5; 
+    
+}
