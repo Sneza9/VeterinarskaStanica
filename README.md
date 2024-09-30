@@ -9,5 +9,6 @@ greska postoji opcija ažuriranje životinje, kao i brisanje postojeće životin
 https://github.com/Sneza9/VeterinarskaStanica/blob/master/Dokumentacija/Dokumentacija.pdf 
 
 ## Details 
-Predmet: Web programiranje 
+Predmet: Web programiranje
+
 Godina: 3 
